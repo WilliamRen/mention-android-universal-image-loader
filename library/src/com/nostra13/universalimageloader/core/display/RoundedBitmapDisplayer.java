@@ -23,6 +23,7 @@ import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.graphics.RectF;
+import android.util.Log;
 import android.widget.ImageView;
 
 import com.nostra13.universalimageloader.utils.L;
@@ -68,6 +69,7 @@ public class RoundedBitmapDisplayer implements BitmapDisplayer {
 		int bh = bitmap.getHeight();
 		int vw = imageView.getWidth();
 		int vh = imageView.getHeight();
+        Log.d("Jelly", "width : " + vw + " height " + vh);
 		if (vw <= 0) vw = bw;
 		if (vh <= 0) vh = bh;
 

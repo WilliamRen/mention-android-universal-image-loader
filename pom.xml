@@ -160,7 +160,6 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
-		<sourceDirectory>src</sourceDirectory>
 	</build>
 
 </project>
